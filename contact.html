@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Powertechexpo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__inner">
+    <div class="menu-overlay" data-menu-overlay></div>
+
+    <div class="header__logo">
+      <a class="header__logo-link" href="index.html">
+        <img class="header__logo-img" src="img/logo.svg" alt="logo">
+      </a>
+    </div>
+    <nav class="header__menu" data-menu>
+      <ul class="header__menu-list menu">
+        <li class="header__menu-item has-submenu">
+          <a href="exhibitors.html" class="header__menu-link">
+            For Exhibitors
+            <svg class="arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.24265 5.30325L-0.000102997 1.0605L1.0604 -3.70913e-07L4.7729 3.7125L8.4854 -4.63559e-08L9.5459 1.0605L5.30315 5.30325C5.1625 5.44385 4.97177 5.52284 4.7729 5.52284C4.57403 5.52284 4.38329 5.44385 4.24265 5.30325Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="index.html" class="submenu__link">home</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Gallery</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Contact</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item has-submenu">
+          <a href="visitors.html" class="header__menu-link">
+            For Visitors
+            <svg class="arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.24265 5.30325L-0.000102997 1.0605L1.0604 -3.70913e-07L4.7729 3.7125L8.4854 -4.63559e-08L9.5459 1.0605L5.30315 5.30325C5.1625 5.44385 4.97177 5.52284 4.7729 5.52284C4.57403 5.52284 4.38329 5.44385 4.24265 5.30325Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">home</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Gallery</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Contact</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item has-submenu">
+          <a href="conference.html" class="header__menu-link">
+            Conference
+            <svg class="arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.24265 5.30325L-0.000102997 1.0605L1.0604 -3.70913e-07L4.7729 3.7125L8.4854 -4.63559e-08L9.5459 1.0605L5.30315 5.30325C5.1625 5.44385 4.97177 5.52284 4.7729 5.52284C4.57403 5.52284 4.38329 5.44385 4.24265 5.30325Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">home</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Gallery</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Contact</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item has-submenu">
+          <a href="news.html" class="header__menu-link">
+            News & Press releases
+            <svg class="arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.24265 5.30325L-0.000102997 1.0605L1.0604 -3.70913e-07L4.7729 3.7125L8.4854 -4.63559e-08L9.5459 1.0605L5.30315 5.30325C5.1625 5.44385 4.97177 5.52284 4.7729 5.52284C4.57403 5.52284 4.38329 5.44385 4.24265 5.30325Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">home</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Gallery</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Contact</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item has-submenu">
+          <a href="about.html" class="header__menu-link">
+            About
+            <svg class="arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.24265 5.30325L-0.000102997 1.0605L1.0604 -3.70913e-07L4.7729 3.7125L8.4854 -4.63559e-08L9.5459 1.0605L5.30315 5.30325C5.1625 5.44385 4.97177 5.52284 4.7729 5.52284C4.57403 5.52284 4.38329 5.44385 4.24265 5.30325Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">home</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Gallery</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Contact</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item">
+          <a href="news.html" class="header__menu-link">
+            News
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="contact.html" class="header__menu-link">
+            Contacts
+          </a>
+        </li>
+      </ul>
+      <ul class="header__language">
+        <li class="header__language-item">
+          <a href="#" class="header__language-link">
+            KZ
+          </a>
+        </li>
+        <li class="header__language-item">
+          <a href="#" class="header__language-link">
+            EN
+          </a>
+        </li>
+        <li class="header__language-item">
+          <a href="#" class="header__language-link">
+            RU
+          </a>
+        </li>
+      </ul>
+      <a href="become.html" class="header__btn btn btn-green">Book a Booth</a>
+    </nav>
+
+    <ul class="header__language">
+      <li class="header__language-item">
+        <a href="#" class="header__language-link">
+          KZ
+        </a>
+      </li>
+      <li class="header__language-item">
+        <a href="#" class="header__language-link">
+          EN
+        </a>
+      </li>
+      <li class="header__language-item">
+        <a href="#" class="header__language-link">
+          RU
+        </a>
+      </li>
+    </ul>
+    <a href="become.html" class="header__btn btn btn-green">Book a Booth</a>
+    <button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+    <main class="main">
+      <section class="intro intro--six">
+        <div class="container">
+          <h1 class="intro__title">
+            Contact Us
+          </h1>
+          <p class="intro__text">
+            Get in touch with our team for inquiries about exhibiting, visiting, partnerships, or any other
+            information about PowerTechExpo 2026.
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <h2 class="contacts__title title">
+            Get in Touch
+          </h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <div class="contacts__item-icon">
+                <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M3 24C2.175 24 1.469 23.7065 0.882 23.1195C0.295 22.5325 0.001 21.826 0 21V3C0 2.175 0.294 1.469 0.882 0.882C1.47 0.295 2.176 0.001 3 0H27C27.825 0 28.5315 0.294 29.1195 0.882C29.7075 1.47 30.001 2.176 30 3V21C30 21.825 29.7065 22.5315 29.1195 23.1195C28.5325 23.7075 27.826 24.001 27 24H3ZM15 13.5L3 6V21H27V6L15 13.5ZM15 10.5L27 3H3L15 10.5ZM3 6V3V21V6Z"
+                    fill="#4A5565" />
+                </svg>
+              </div>
+              <h5 class="contacts__item-title">
+                Email
+              </h5>
+              <a href="mailto:info@powertechexpo.kz" class="contacts__item-link">
+                info@powertechexpo.kz
+              </a>
+              <a href="mailto:sales@powertechexpo.kz" class="contacts__item-link">
+                sales@powertechexpo.kz
+              </a>
+              <div class="contacts__item-decr">
+                General inquiries and sales
+              </div>
+            </li>
+            <li class="contacts__item">
+              <div class="contacts__item-icon">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M23.0394 18.8275C22.1709 17.9525 20.0677 16.6756 19.0472 16.161C17.7183 15.4916 17.6089 15.4369 16.5644 16.2129C15.8677 16.7308 15.4045 17.1935 14.5891 17.0196C13.7737 16.8457 12.0018 15.8651 10.4503 14.3186C8.89883 12.772 7.86141 10.9487 7.68695 10.1361C7.5125 9.32341 7.98281 8.86567 8.49578 8.16731C9.21875 7.18294 9.16406 7.01887 8.54609 5.68997C8.0643 4.65637 6.75016 2.57278 5.87188 1.70872C4.93234 0.780671 4.93234 0.944734 4.32695 1.1963C3.83407 1.40362 3.36124 1.65569 2.91438 1.94934C2.03938 2.53067 1.55375 3.01356 1.21414 3.73927C0.874532 4.46497 0.721954 6.1663 2.47578 9.35239C4.22961 12.5385 5.46008 14.1676 8.00688 16.7073C10.5537 19.247 12.512 20.6125 15.3749 22.2182C18.9165 24.2017 20.2749 23.815 21.0028 23.476C21.7307 23.1369 22.2158 22.6557 22.7982 21.7807C23.0926 21.3346 23.3452 20.8622 23.5529 20.3697C23.805 19.7665 23.9691 19.7665 23.0394 18.8275Z"
+                    stroke="#4A5565" stroke-width="2" stroke-miterlimit="10" />
+                </svg>
+              </div>
+              <h5 class="contacts__item-title">
+                Phone
+              </h5>
+              <a href="tel:+77271234567" class="contacts__item-link">
+                +7 (727-12) 3-45-67
+              </a>
+              <a href="tel:+77271234568" class="contacts__item-link">
+                +7 (727-12) 3-45-68
+              </a>
+              <div class="contacts__item-decr">
+                Business hours support
+              </div>
+            </li>
+            <li class="contacts__item">
+              <div class="contacts__item-icon">
+                <svg width="19" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9.33333 0C4.2 0 0 4.2 0 9.33333C0 15.6333 8.16667 22.75 8.51667 23.1C8.75 23.2167 9.1 23.3333 9.33333 23.3333C9.56667 23.3333 9.91667 23.2167 10.15 23.1C10.5 22.75 18.6667 15.6333 18.6667 9.33333C18.6667 4.2 14.4667 0 9.33333 0ZM9.33333 20.65C6.88333 18.3167 2.33333 13.3 2.33333 9.33333C2.33333 5.48333 5.48333 2.33333 9.33333 2.33333C13.1833 2.33333 16.3333 5.48333 16.3333 9.33333C16.3333 13.1833 11.7833 18.3167 9.33333 20.65ZM9.33333 4.66667C6.76667 4.66667 4.66667 6.76667 4.66667 9.33333C4.66667 11.9 6.76667 14 9.33333 14C11.9 14 14 11.9 14 9.33333C14 6.76667 11.9 4.66667 9.33333 4.66667ZM9.33333 11.6667C8.05 11.6667 7 10.6167 7 9.33333C7 8.05 8.05 7 9.33333 7C10.6167 7 11.6667 8.05 11.6667 9.33333C11.6667 10.6167 10.6167 11.6667 9.33333 11.6667Z"
+                    fill="#4C5666" />
+                </svg>
+              </div>
+              <h5 class="contacts__item-title">
+                Address
+              </h5>
+              <div class="contacts__item-text">
+                Kok-Tobe Exhibition Center
+              </div>
+              <div class="contacts__item-text">
+                Al-Farabi Avenue 123
+              </div>
+              <div class="contacts__item-text">
+                Almaty 050040, Kazakhstan
+              </div>
+              <div class="contacts__item-decr">
+                Business hours support
+              </div>
+            <li class="contacts__item">
+              <div class="contacts__item-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.9575 22.8261C17.9606 22.8261 22.827 17.9596 22.827 11.9565C22.827 5.95345 17.9606 1.08698 11.9575 1.08698C5.95436 1.08698 1.08789 5.95345 1.08789 11.9565C1.08789 17.9596 5.95436 22.8261 11.9575 22.8261Z"
+                    stroke="#4A5565" stroke-width="2.17391" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M11.959 6.52185V11.9566L15.2199 15.2175" stroke="#4A5565" stroke-width="2.17391"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <h5 class="contacts__item-title">
+                Business Hours
+              </h5>
+              <div class="contacts__item-text">
+                Monday — Friday: 9:00 — 18:00
+              </div>
+              <div class="contacts__item-text">
+                Saturday: 10:00 — 16:00
+              </div>
+              <div class="contacts__item-text">
+                Sunday: Closed
+              </div>
+              <div class="contacts__item-text">
+                Local time (UTC+6)
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts__wrapper">
+          <div class="container contacts__content">
+            <div class="contacts__content-left">
+              <h3 class="contacts__content-title">
+                Send us a Message
+              </h3>
+              <p class="contacts__content-text">
+                Fill out the form below and we’ll get back to you within 24 hours.
+              </p>
+              <form class="contacts__form form" action="/send-message" method="post">
+                <div class="contacts__form-top form__top">
+                  <div class="contacts__form-item form__item">
+                    <label for="first-name" class="contacts__form-name form__label">First Name</label>
+                    <input type="text" id="first-name" name="first_name" class="contacts__form-input form__input"
+                      placeholder="John" required>
+                  </div>
+                  <div class="contacts__form-item form__item">
+                    <label for="last-name" class="contacts__form-name form__label">Last Name</label>
+                    <input type="text" id="last-name" name="last_name" class="contacts__form-input form__input"
+                      placeholder="Dou" required>
+                  </div>
+                </div>
+
+                <div class="contacts__form-item form__item">
+                  <label for="email" class="contacts__form-name form__label">Email</label>
+                  <input type="email" id="email" name="email" class="contacts__form-input form__input"
+                    placeholder="john@company.com" required>
+                </div>
+
+                <div class="contacts__form-item form__item">
+                  <label for="company" class="contacts__form-name form__label">Company</label>
+                  <input type="text" id="company" name="company" class="contacts__form-input form__input"
+                    placeholder="Your Company Name">
+                </div>
+
+                <!-- ✅ Кастомный селектор вместо стандартного select -->
+                <div class="contacts__form-item form__item">
+                  <label class="contacts__form-name form__label">Inquiry Type</label>
+                  <div class="form__custom-select" data-select>
+                    <div class="form__custom-selected" data-select-trigger>
+                      Select department
+                    </div>
+                    <ul class="form__custom-options">
+                      <li data-value="sales">Sales</li>
+                      <li data-value="support">Support</li>
+                      <li data-value="partnership">Partnership</li>
+                    </ul>
+                    <input type="hidden" name="inquiry_type" required>
+                  </div>
+                </div>
+                <!-- ✅ конец кастомного селектора -->
+
+                <div class="contacts__form-item form__item">
+                  <label for="message" class="contacts__form-name form__label">Message</label>
+                  <textarea class="contacts__form-message form__textarea" id="message" name="message"
+                    placeholder="Please describe your inquiry..." required></textarea>
+                </div>
+
+                <button type="submit" class="contacts__btn form__btn">Send Message</button>
+              </form>
+
+            </div>
+            <div class="contacts__content-right">
+              <div class="contacts__adress">
+                <h4 class="contacts__adress-title">
+                  Event Venue
+                </h4>
+                <div class="contacts__adress-text">
+                  Kok-Tobe Exhibition Center, Almaty
+                </div>
+                <div class="contacts__adress-maps">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.440212055999!2d76.93126587636692!3d43.221229271125864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f3b36163c45%3A0xc17bcc0f88f3bc6c!2z0L_RgNC-0YHQv9C10LrRgiBB0LvRjC3QpNCw0YDQsNCx0LggMTIzLCDQkNC70LzQsNGC0YssINCa0LDQt9Cw0YXRgdGC0LDQvQ!5e0!3m2!1sru!2sno!4v1762439858257!5m2!1sru!2sno"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contacts__adress-descr">
+                  <span>Address: </span>Al-Farabi Avenue 123, Almaty 050040
+                </div>
+                <div class="contacts__adress-descr">
+                  <span>Coordinates: </span>43.2220° N, 76,8512° E
+                </div>
+                <div class="contacts__adress-descr">
+                  <span>Venue Size: </span>15,000 sqm exhibition space
+                </div>
+              </div>
+              <div class="contacts__loctaion">
+                <h4 class="contacts__adress-title">
+                  Office Location
+                </h4>
+                <div class="contacts__loctaion-photo">
+                  <img src="img/office.jpg" alt="photo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="getting">
+        <div class="container">
+          <h2 class="getting__title title--two">
+            Getting to Almaty
+          </h2>
+          <div class="getting__cards">
+            <div class="getting__card">
+              <div class="getting__card-icon">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M23.45 25.8313L20.75 13.5312L26 8.28125C28.25 6.03125 29 3.03125 28.25 1.53125C26.75 0.78125 23.75 1.53125 21.5 3.78125L16.25 9.03125L3.95 6.33125C3.2 6.18125 2.6 6.48125 2.3 7.08125L1.85 7.83125C1.55 8.58125 1.7 9.33125 2.3 9.78125L10.25 15.0312L7.25 19.5312H2.75L1.25 21.0312L5.75 24.0312L8.75 28.5312L10.25 27.0312V22.5312L14.75 19.5312L20 27.4812C20.45 28.0812 21.2 28.2313 21.95 27.9313L22.7 27.6312C23.3 27.1812 23.6 26.5813 23.45 25.8313Z"
+                    stroke="#155DFC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <h5 class="getting__card-title">
+                By Air
+              </h5>
+              <div class="getting__card-descr">
+                Almaty International Airport (ALA) — 20 km from venue
+              </div>
+              <ul class="getting__card-list">
+                <li class="getting__card-item">
+                  International flights from major cities
+                </li>
+                <li class="getting__card-item">
+                  Airport shuttle service available
+                </li>
+                <li class="getting__card-item">
+                  Taxi: 30-45 minutes to venue
+                </li>
+              </ul>
+            </div>
+            <div class="getting__card">
+              <div class="getting__card-icon">
+                <svg width="24" height="29" viewBox="0 0 24 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.47929e-06 20.25V6.00001C1.47929e-06 4.67501 0.344002 3.61851 1.032 2.83051C1.72 2.04251 2.626 1.44251 3.75 1.03051C4.874 0.618511 6.1555 0.343511 7.5945 0.205511C9.0335 0.0675109 10.502 -0.000989209 12 1.07913e-05C13.65 1.07913e-05 15.2065 0.0690108 16.6695 0.207011C18.1325 0.345011 19.4075 0.620011 20.4945 1.03201C21.5815 1.44401 22.4375 2.04401 23.0625 2.83201C23.6875 3.62001 24 4.67601 24 6.00001V20.25C24 21.725 23.494 22.969 22.482 23.982C21.47 24.995 20.226 25.501 18.75 25.5L21 27.75V28.5H18L15 25.5H9L6 28.5H3V27.75L5.25 25.5C3.775 25.5 2.531 24.994 1.518 23.982C0.505002 22.97 -0.000998521 21.726 1.47929e-06 20.25ZM12 3.00001C9.35 3.00001 7.4125 3.15651 6.1875 3.46951C4.9625 3.78251 4.125 4.12601 3.675 4.50001H20.475C20.1 4.07501 19.294 3.71901 18.057 3.43201C16.82 3.14501 14.801 3.00101 12 3.00001ZM3 12H10.5V7.50001H3V12ZM18.75 15H3H21H18.75ZM13.5 12H21V7.50001H13.5V12ZM6.75 21C7.4 21 7.9375 20.7875 8.3625 20.3625C8.7875 19.9375 9 19.4 9 18.75C9 18.1 8.7875 17.5625 8.3625 17.1375C7.9375 16.7125 7.4 16.5 6.75 16.5C6.1 16.5 5.5625 16.7125 5.1375 17.1375C4.7125 17.5625 4.5 18.1 4.5 18.75C4.5 19.4 4.7125 19.9375 5.1375 20.3625C5.5625 20.7875 6.1 21 6.75 21ZM17.25 21C17.9 21 18.4375 20.7875 18.8625 20.3625C19.2875 19.9375 19.5 19.4 19.5 18.75C19.5 18.1 19.2875 17.5625 18.8625 17.1375C18.4375 16.7125 17.9 16.5 17.25 16.5C16.6 16.5 16.0625 16.7125 15.6375 17.1375C15.2125 17.5625 15 18.1 15 18.75C15 19.4 15.2125 19.9375 15.6375 20.3625C16.0625 20.7875 16.6 21 17.25 21ZM5.25 22.5H18.75C19.4 22.5 19.9375 22.2875 20.3625 21.8625C20.7875 21.4375 21 20.9 21 20.25V15H3V20.25C3 20.9 3.2125 21.4375 3.6375 21.8625C4.0625 22.2875 4.6 22.5 5.25 22.5ZM12 4.50001H20.475H3.675H12Z"
+                    fill="#155DFC" />
+                </svg>
+              </div>
+              <h5 class="getting__card-title">
+                By Rail
+              </h5>
+              <div class="getting__card-descr">
+                Almaty-2 Railway Station — 15 km from venue
+              </div>
+              <ul class="getting__card-list">
+                <li class="getting__card-item">
+                  Connections from major CIS cities
+                </li>
+                <li class="getting__card-item">
+                  Metro line to city center
+                </li>
+                <li class="getting__card-item">
+                  Transfer to venue via taxi or metro
+                </li>
+              </ul>
+            </div>
+            <div class="getting__card">
+              <div class="getting__card-icon">
+                <svg width="42" height="26" viewBox="0 0 42 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M33.9837 20.5666H37.8171C38.9671 20.5666 39.7337 19.7999 39.7337 18.6499V12.8999C39.7337 11.1749 38.3921 9.64157 36.8587 9.25824C33.4087 8.2999 28.2337 7.1499 28.2337 7.1499C28.2337 7.1499 25.7421 4.46657 24.0171 2.74157C23.0587 1.9749 21.9087 1.3999 20.5671 1.3999H7.15039C6.00039 1.3999 5.04206 2.16657 4.46706 3.1249L1.78372 8.68324C1.52992 9.4235 1.40039 10.2007 1.40039 10.9832V18.6499C1.40039 19.7999 2.16706 20.5666 3.31706 20.5666H7.15039"
+                    stroke="#155DFC" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M10.9837 24.3998C13.1008 24.3998 14.8171 22.6836 14.8171 20.5665C14.8171 18.4494 13.1008 16.7332 10.9837 16.7332C8.86663 16.7332 7.15039 18.4494 7.15039 20.5665C7.15039 22.6836 8.86663 24.3998 10.9837 24.3998Z"
+                    stroke="#155DFC" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M14.8164 20.5667H26.3164" stroke="#155DFC" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M30.1497 24.3998C32.2668 24.3998 33.9831 22.6836 33.9831 20.5665C33.9831 18.4494 32.2668 16.7332 30.1497 16.7332C28.0326 16.7332 26.3164 18.4494 26.3164 20.5665C26.3164 22.6836 28.0326 24.3998 30.1497 24.3998Z"
+                    stroke="#155DFC" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <h5 class="getting__card-title">
+                By Car
+              </h5>
+              <div class="getting__card-descr">
+                Direct access via Al-Farabi Avenue
+              </div>
+              <ul class="getting__card-list">
+                <li class="getting__card-item">
+                  Free parking available at venue
+                </li>
+                <li class="getting__card-item">
+                  GPS coordinates: 43.2220, 76.8512
+                </li>
+                <li class="getting__card-item">
+                  Major hotels within 5 km radius
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+       <section class="faq">
+        <div class="container">
+          <h2 class="faq__title title--two">
+            Frequently Asked Questions
+          </h2>
+          <div class="faq__items">
+            <div class="faq__item">
+              <h3 class="faq__item-title">
+                What are the visa requirements for Kazakhstan?
+              </h3>
+              <p class="faq__item-text">
+                Citizens of many countries can enter Kazakhstan visa-free for up to 30 days. Please check with the
+                Kazakhstan embassy in your country for specific requirements.
+              </p>
+            </div>
+            <div class="faq__item">
+              <h3 class="faq__item-title">
+                Is there accommodation near the venue?
+              </h3>
+              <p class="faq__item-text">
+                Yes, there are several hotels within 5 km of the venue. We recommend booking early as availability may be
+                limited during the event dates.
+              </p>
+            </div>
+            <div class="faq__item">
+              <h3 class="faq__item-title">
+                What languages are supported at the event?
+              </h3>
+              <p class="faq__item-text">
+                The event supports Kazakh, Russian, and English. Simultaneous interpretation is available for all main
+                conference sessions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta cta--two cta--for">
+        <div class="container">
+          <h2 class="cta__title">
+            Need Immediate Assistance?
+          </h2>
+          <p class="cta__subtitle text">
+            Our team is ready to help you with any questions about PowerTechExpo 2026.
+          </p>
+          <div class="cta__buttons">
+            <a href="#" class="cta__buttons-btn btn btn-white">
+              Leave a message
+            </a>
+            <a href="#" class="cta__buttons-btn btn btn-white">
+              Schedule a Call
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__top">
+      <div class="footer__info">
+        <a href="#" class="footer__logo">
+          <img src="img/footer-logo.svg" alt="PowerTechEXPO">
+        </a>
+        <p class="footer__desc text">
+          24th International Exhibition on Renewable & Alternative Energy & Technologies
+        </p>
+        <ul class="footer__details">
+          <li class="footer__detail">
+            <span class="footer__icon footer__icon--location">
+              <svg width="18" height="23" viewBox="0 0 18 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17 9C17 15.5 9 21 9 21C9 21 1 15.5 1 9C1 6.87827 1.84285 4.84344 3.34315 3.34315C4.84344 1.84285 6.87827 1 9 1C11.1217 1 13.1566 1.84285 14.6569 3.34315C16.1571 4.84344 17 6.87827 17 9Z"
+                  stroke="white" stroke-width="2" />
+                <path
+                  d="M12 9C12 9.79565 11.6839 10.5587 11.1213 11.1213C10.5587 11.6839 9.79565 12 9 12C8.20435 12 7.44129 11.6839 6.87868 11.1213C6.31607 10.5587 6 9.79565 6 9C6 8.20435 6.31607 7.44129 6.87868 6.87868C7.44129 6.31607 8.20435 6 9 6C9.79565 6 10.5587 6.31607 11.1213 6.87868C11.6839 7.44129 12 8.20435 12 9Z"
+                  stroke="white" stroke-width="2" />
+              </svg>
+            </span>
+            April 28–30, 2026
+          </li>
+          <li class="footer__detail">
+            <span class="footer__icon footer__icon--calendar">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 12C2 8.229 2 6.343 3.172 5.172C4.344 4.001 6.229 4 10 4H14C17.771 4 19.657 4 20.828 5.172C21.999 6.344 22 8.229 22 12V14C22 17.771 22 19.657 20.828 20.828C19.656 21.999 17.771 22 14 22H10C6.229 22 4.343 22 3.172 20.828C2.001 19.656 2 17.771 2 14V12Z"
+                  stroke="white" stroke-width="1.5" />
+                <path d="M7 4V2.5M17 4V2.5M2.5 9H21.5" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                <path
+                  d="M18 17C18 17.2652 17.8946 17.5196 17.7071 17.7071C17.5196 17.8946 17.2652 18 17 18C16.7348 18 16.4804 17.8946 16.2929 17.7071C16.1054 17.5196 16 17.2652 16 17C16 16.7348 16.1054 16.4804 16.2929 16.2929C16.4804 16.1054 16.7348 16 17 16C17.2652 16 17.5196 16.1054 17.7071 16.2929C17.8946 16.4804 18 16.7348 18 17ZM18 13C18 13.2652 17.8946 13.5196 17.7071 13.7071C17.5196 13.8946 17.2652 14 17 14C16.7348 14 16.4804 13.8946 16.2929 13.7071C16.1054 13.5196 16 13.2652 16 13C16 12.7348 16.1054 12.4804 16.2929 12.2929C16.4804 12.1054 16.7348 12 17 12C17.2652 12 17.5196 12.1054 17.7071 12.2929C17.8946 12.4804 18 12.7348 18 13ZM13 17C13 17.2652 12.8946 17.5196 12.7071 17.7071C12.5196 17.8946 12.2652 18 12 18C11.7348 18 11.4804 17.8946 11.2929 17.7071C11.1054 17.5196 11 17.2652 11 17C11 16.7348 11.1054 16.4804 11.2929 16.2929C11.4804 16.1054 11.7348 16 12 16C12.2652 16 12.5196 16.1054 12.7071 16.2929C12.8946 16.4804 13 16.7348 13 17ZM13 13C13 13.2652 12.8946 13.5196 12.7071 13.7071C12.5196 13.8946 12.2652 14 12 14C11.7348 14 11.4804 13.8946 11.2929 13.7071C11.1054 13.5196 11 13.2652 11 13C11 12.7348 11.1054 12.4804 11.2929 12.2929C11.4804 12.1054 11.7348 12 12 12C12.2652 12 12.5196 12.1054 12.7071 12.2929C12.8946 12.4804 13 12.7348 13 13ZM8 17C8 17.2652 7.89464 17.5196 7.70711 17.7071C7.51957 17.8946 7.26522 18 7 18C6.73478 18 6.48043 17.8946 6.29289 17.7071C6.10536 17.5196 6 17.2652 6 17C6 16.7348 6.10536 16.4804 6.29289 16.2929C6.48043 16.1054 6.73478 16 7 16C7.26522 16 7.51957 16.1054 7.70711 16.2929C7.89464 16.4804 8 16.7348 8 17ZM8 13C8 13.2652 7.89464 13.5196 7.70711 13.7071C7.51957 13.8946 7.26522 14 7 14C6.73478 14 6.48043 13.8946 6.29289 13.7071C6.10536 13.5196 6 13.2652 6 13C6 12.7348 6.10536 12.4804 6.29289 12.2929C6.48043 12.1054 6.73478 12 7 12C7.26522 12 7.51957 12.1054 7.70711 12.2929C7.89464 12.4804 8 12.7348 8 13Z"
+                  fill="white" />
+              </svg>
+            </span>
+            Almaty, Atakent Exhibition Centre
+          </li>
+        </ul>
+      </div>
+
+      <!-- Блок: быстрые ссылки -->
+      <div class="footer__links">
+        <h3 class="footer__title">Quick Links</h3>
+        <ul class="footer__list">
+          <li><a href="#">For Exhibitors</a></li>
+          <li><a href="#">For Visitors</a></li>
+          <li><a href="#">Conference Program</a></li>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">About PowerTech</a></li>
+          <li><a href="#">News & Updates</a></li>
+        </ul>
+      </div>
+
+      <!-- Блок: контакты -->
+      <div class="footer__contacts">
+        <h3 class="footer__title">Contact Us</h3>
+        <div class="footer__person">
+          <h4 class="footer__name">Altair Bekmuratov</h4>
+          <a href="tel:+77271234567" class="footer__contact footer__contact--phone">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.95 18C14.8667 18 12.8083 17.546 10.775 16.638C8.74167 15.73 6.89167 14.4423 5.225 12.775C3.55833 11.1077 2.271 9.25767 1.363 7.225C0.455 5.19233 0.000666667 3.134 0 1.05C0 0.75 0.0999999 0.5 0.3 0.3C0.5 0.0999999 0.75 0 1.05 0H5.1C5.33333 0 5.54167 0.0793332 5.725 0.238C5.90833 0.396667 6.01667 0.584 6.05 0.8L6.7 4.3C6.73333 4.56667 6.725 4.79167 6.675 4.975C6.625 5.15833 6.53333 5.31667 6.4 5.45L3.975 7.9C4.30833 8.51667 4.704 9.11233 5.162 9.687C5.62 10.2617 6.12433 10.816 6.675 11.35C7.19167 11.8667 7.73333 12.346 8.3 12.788C8.86667 13.23 9.46667 13.634 10.1 14L12.45 11.65C12.6 11.5 12.796 11.3877 13.038 11.313C13.28 11.2383 13.5173 11.2173 13.75 11.25L17.2 11.95C17.4333 12.0167 17.625 12.1377 17.775 12.313C17.925 12.4883 18 12.684 18 12.9V16.95C18 17.25 17.9 17.5 17.7 17.7C17.5 17.9 17.25 18 16.95 18ZM3.025 6L4.675 4.35L4.25 2H2.025C2.10833 2.68333 2.225 3.35833 2.375 4.025C2.525 4.69167 2.74167 5.35 3.025 6ZM11.975 14.95C12.625 15.2333 13.2877 15.4583 13.963 15.625C14.6383 15.7917 15.3173 15.9 16 15.95V13.75L13.65 13.275L11.975 14.95Z"
+                fill="white" />
+            </svg>
+            +7 (727-12) 3-45-67
+          </a>
+          <a href="mailto:altair@eventindustries.kz" class="footer__contact footer__contact--mail">
+            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2 16C1.45 16 0.979333 15.8043 0.588 15.413C0.196667 15.0217 0.000666667 14.5507 0 14V2C0 1.45 0.196 0.979333 0.588 0.588C0.98 0.196666 1.45067 0.000666667 2 0H18C18.55 0 19.021 0.196 19.413 0.588C19.805 0.98 20.0007 1.45067 20 2V14C20 14.55 19.8043 15.021 19.413 15.413C19.0217 15.805 18.5507 16.0007 18 16H2ZM10 9L2 4V14H18V4L10 9ZM10 7L18 2H2L10 7ZM2 4V2V14V4Z"
+                fill="white" />
+            </svg>
+            altair@eventindustries.kz</a>
+        </div>
+        <div class="footer__person">
+          <h4 class="footer__name">Rania Sultanova</h4>
+          <a href="tel:+77271234567" class="footer__contact footer__contact--phone">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.95 18C14.8667 18 12.8083 17.546 10.775 16.638C8.74167 15.73 6.89167 14.4423 5.225 12.775C3.55833 11.1077 2.271 9.25767 1.363 7.225C0.455 5.19233 0.000666667 3.134 0 1.05C0 0.75 0.0999999 0.5 0.3 0.3C0.5 0.0999999 0.75 0 1.05 0H5.1C5.33333 0 5.54167 0.0793332 5.725 0.238C5.90833 0.396667 6.01667 0.584 6.05 0.8L6.7 4.3C6.73333 4.56667 6.725 4.79167 6.675 4.975C6.625 5.15833 6.53333 5.31667 6.4 5.45L3.975 7.9C4.30833 8.51667 4.704 9.11233 5.162 9.687C5.62 10.2617 6.12433 10.816 6.675 11.35C7.19167 11.8667 7.73333 12.346 8.3 12.788C8.86667 13.23 9.46667 13.634 10.1 14L12.45 11.65C12.6 11.5 12.796 11.3877 13.038 11.313C13.28 11.2383 13.5173 11.2173 13.75 11.25L17.2 11.95C17.4333 12.0167 17.625 12.1377 17.775 12.313C17.925 12.4883 18 12.684 18 12.9V16.95C18 17.25 17.9 17.5 17.7 17.7C17.5 17.9 17.25 18 16.95 18ZM3.025 6L4.675 4.35L4.25 2H2.025C2.10833 2.68333 2.225 3.35833 2.375 4.025C2.525 4.69167 2.74167 5.35 3.025 6ZM11.975 14.95C12.625 15.2333 13.2877 15.4583 13.963 15.625C14.6383 15.7917 15.3173 15.9 16 15.95V13.75L13.65 13.275L11.975 14.95Z"
+                fill="white" />
+            </svg>
+            +7 (727-12) 3-45-67</a>
+          <a href="mailto:rania@eventindustries.kz" class="footer__contact footer__contact--mail">
+            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2 16C1.45 16 0.979333 15.8043 0.588 15.413C0.196667 15.0217 0.000666667 14.5507 0 14V2C0 1.45 0.196 0.979333 0.588 0.588C0.98 0.196666 1.45067 0.000666667 2 0H18C18.55 0 19.021 0.196 19.413 0.588C19.805 0.98 20.0007 1.45067 20 2V14C20 14.55 19.8043 15.021 19.413 15.413C19.0217 15.805 18.5507 16.0007 18 16H2ZM10 9L2 4V14H18V4L10 9ZM10 7L18 2H2L10 7ZM2 4V2V14V4Z"
+                fill="white" />
+            </svg>
+            rania@eventindustries.kz</a>
+        </div>
+      </div>
+
+      <!-- Блок: подписка -->
+      <div class="footer__subscribe">
+        <h3 class="footer__title">Stay Connected</h3>
+        <p class="footer__text text">
+          Subscribe for updates and announcements
+        </p>
+        <form class="footer__form" action="#" method="post">
+          <input type="email" class="footer__input" placeholder="Enter your email" required>
+          <button type="submit" class="footer__btn">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.7896 0.0744176C18.8056 -0.280582 19.7816 0.695418 19.4266 1.71142L13.5016 18.6414C13.1166 19.7394 11.5866 19.8014 11.1146 18.7384L8.25561 12.3064L12.2796 8.28142C12.4121 8.13924 12.4842 7.9512 12.4808 7.7569C12.4774 7.56259 12.3986 7.37721 12.2612 7.2398C12.1238 7.10238 11.9384 7.02367 11.7441 7.02024C11.5498 7.01681 11.3618 7.08894 11.2196 7.22142L7.19461 11.2454L0.762611 8.38642C-0.300389 7.91342 -0.23739 6.38442 0.85961 5.99942L17.7896 0.0744176Z"
+                fill="white" />
+            </svg>
+          </button>
+        </form>
+
+        <div class="footer__socials">
+          <p class="footer__social-title text">Follow Us</p>
+          <ul class="footer__social-list">
+            <li>
+              <a href="#" class="footer__social-link">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.8 0H14.2C17.4 0 20 2.6 20 5.8V14.2C20 15.7383 19.3889 17.2135 18.3012 18.3012C17.2135 19.3889 15.7383 20 14.2 20H5.8C2.6 20 0 17.4 0 14.2V5.8C0 4.26174 0.61107 2.78649 1.69878 1.69878C2.78649 0.61107 4.26174 0 5.8 0ZM5.6 2C4.64522 2 3.72955 2.37928 3.05442 3.05442C2.37928 3.72955 2 4.64522 2 5.6V14.4C2 16.39 3.61 18 5.6 18H14.4C15.3548 18 16.2705 17.6207 16.9456 16.9456C17.6207 16.2705 18 15.3548 18 14.4V5.6C18 3.61 16.39 2 14.4 2H5.6ZM15.25 3.5C15.5815 3.5 15.8995 3.6317 16.1339 3.86612C16.3683 4.10054 16.5 4.41848 16.5 4.75C16.5 5.08152 16.3683 5.39946 16.1339 5.63388C15.8995 5.8683 15.5815 6 15.25 6C14.9185 6 14.6005 5.8683 14.3661 5.63388C14.1317 5.39946 14 5.08152 14 4.75C14 4.41848 14.1317 4.10054 14.3661 3.86612C14.6005 3.6317 14.9185 3.5 15.25 3.5ZM10 5C11.3261 5 12.5979 5.52678 13.5355 6.46447C14.4732 7.40215 15 8.67392 15 10C15 11.3261 14.4732 12.5979 13.5355 13.5355C12.5979 14.4732 11.3261 15 10 15C8.67392 15 7.40215 14.4732 6.46447 13.5355C5.52678 12.5979 5 11.3261 5 10C5 8.67392 5.52678 7.40215 6.46447 6.46447C7.40215 5.52678 8.67392 5 10 5ZM10 7C9.20435 7 8.44129 7.31607 7.87868 7.87868C7.31607 8.44129 7 9.20435 7 10C7 10.7956 7.31607 11.5587 7.87868 12.1213C8.44129 12.6839 9.20435 13 10 13C10.7956 13 11.5587 12.6839 12.1213 12.1213C12.6839 11.5587 13 10.7956 13 10C13 9.20435 12.6839 8.44129 12.1213 7.87868C11.5587 7.31607 10.7956 7 10 7Z"
+                    fill="#131313" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__social-link">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16 0C16.5304 0 17.0391 0.210714 17.4142 0.585786C17.7893 0.960859 18 1.46957 18 2V16C18 16.5304 17.7893 17.0391 17.4142 17.4142C17.0391 17.7893 16.5304 18 16 18H2C1.46957 18 0.960859 17.7893 0.585786 17.4142C0.210714 17.0391 0 16.5304 0 16V2C0 1.46957 0.210714 0.960859 0.585786 0.585786C0.960859 0.210714 1.46957 0 2 0H16ZM15.5 15.5V10.2C15.5 9.33539 15.1565 8.5062 14.5452 7.89483C13.9338 7.28346 13.1046 6.94 12.24 6.94C11.39 6.94 10.4 7.46 9.92 8.24V7.13H7.13V15.5H9.92V10.57C9.92 9.8 10.54 9.17 11.31 9.17C11.6813 9.17 12.0374 9.3175 12.2999 9.58005C12.5625 9.8426 12.71 10.1987 12.71 10.57V15.5H15.5ZM3.88 5.56C4.32556 5.56 4.75288 5.383 5.06794 5.06794C5.383 4.75288 5.56 4.32556 5.56 3.88C5.56 2.95 4.81 2.19 3.88 2.19C3.43178 2.19 3.00193 2.36805 2.68499 2.68499C2.36805 3.00193 2.19 3.43178 2.19 3.88C2.19 4.81 2.95 5.56 3.88 5.56ZM5.27 15.5V7.13H2.5V15.5H5.27Z"
+                    fill="#131313" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__social-link">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.7896 0.0744176C18.8056 -0.280582 19.7816 0.695418 19.4266 1.71142L13.5016 18.6414C13.1166 19.7394 11.5866 19.8014 11.1146 18.7384L8.25561 12.3064L12.2796 8.28142C12.4121 8.13924 12.4842 7.9512 12.4808 7.7569C12.4774 7.56259 12.3986 7.37721 12.2612 7.2398C12.1238 7.10238 11.9384 7.02367 11.7441 7.02024C11.5498 7.01681 11.3618 7.08894 11.2196 7.22142L7.19461 11.2454L0.762611 8.38642C-0.300389 7.91342 -0.23739 6.38442 0.85961 5.99942L17.7896 0.0744176Z"
+                    fill="black" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="#" class="footer__download btn btn-green">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M8 11.575C7.86667 11.575 7.74167 11.5543 7.625 11.513C7.50833 11.4717 7.4 11.4007 7.3 11.3L3.7 7.7C3.5 7.5 3.404 7.26667 3.412 7C3.42 6.73334 3.516 6.5 3.7 6.3C3.9 6.1 4.13767 5.996 4.413 5.988C4.68833 5.98 4.92567 6.07567 5.125 6.275L7 8.15V1C7 0.71667 7.096 0.479337 7.288 0.288004C7.48 0.0966702 7.71733 0.000670115 8 3.44827e-06C8.28267 -0.000663218 8.52033 0.0953369 8.713 0.288004C8.90567 0.48067 9.00133 0.718003 9 1V8.15L10.875 6.275C11.075 6.075 11.3127 5.979 11.588 5.987C11.8633 5.995 12.1007 6.09934 12.3 6.3C12.4833 6.5 12.5793 6.73334 12.588 7C12.5967 7.26667 12.5007 7.5 12.3 7.7L8.7 11.3C8.6 11.4 8.49167 11.471 8.375 11.513C8.25833 11.555 8.13333 11.5757 8 11.575ZM2 16C1.45 16 0.979333 15.8043 0.588 15.413C0.196666 15.0217 0.000666667 14.5507 0 14V12C0 11.7167 0.0960001 11.4793 0.288 11.288C0.48 11.0967 0.717333 11.0007 1 11C1.28267 10.9993 1.52033 11.0953 1.713 11.288C1.90567 11.4807 2.00133 11.718 2 12V14H14V12C14 11.7167 14.096 11.4793 14.288 11.288C14.48 11.0967 14.7173 11.0007 15 11C15.2827 10.9993 15.5203 11.0953 15.713 11.288C15.9057 11.4807 16.0013 11.718 16 12V14C16 14.55 15.8043 15.021 15.413 15.413C15.0217 15.805 14.5507 16.0007 14 16H2Z"
+              fill="white" />
+          </svg>
+          Download Presentation
+        </a>
+      </div>
+    </div>
+
+    <!-- Нижняя полоса -->
+    <div class="footer__bottom">
+      <p class="footer__copy text">
+        © 2026 PowerTechExpo.kz. All rights reserved.
+      </p>
+      <ul class="footer__policy">
+        <li><a href="#" class="text">Privacy Policy</a></li>
+        <li><a href="#" class="text">Terms & Conditions</a></li>
+        <li><a href="#" class="text">Cookie Policy</a></li>
+      </ul>
+      <div class="footer__lang">
+        <span >Language:</span>
+        <a href="#">EN</a>
+        <a href="#">RU</a>
+        <a href="#">KZ</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+</body>
+
+</html>

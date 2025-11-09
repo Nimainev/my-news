@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Powertechexpo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__inner">
+    <div class="menu-overlay" data-menu-overlay></div>
+
+    <div class="header__logo">
+      <a class="header__logo-link" href="index.html">
+        <img class="header__logo-img" src="img/logo.svg" alt="logo">
+      </a>
+    </div>
+    <nav class="header__menu" data-menu>
+      <ul class="header__menu-list menu">
+        <li class="header__menu-item has-submenu">
+          <a href="exhibitors.html" class="header__menu-link">
+            For Exhibitors
+            <svg class="arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.24265 5.30325L-0.000102997 1.0605L1.0604 -3.70913e-07L4.7729 3.7125L8.4854 -4.63559e-08L9.5459 1.0605L5.30315 5.30325C5.1625 5.44385 4.97177 5.52284 4.7729 5.52284C4.57403 5.52284 4.38329 5.44385 4.24265 5.30325Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="index.html" class="submenu__link">home</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Gallery</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Contact</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item has-submenu">
+          <a href="visitors.html" class="header__menu-link">
+            For Visitors
+            <svg class="arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.24265 5.30325L-0.000102997 1.0605L1.0604 -3.70913e-07L4.7729 3.7125L8.4854 -4.63559e-08L9.5459 1.0605L5.30315 5.30325C5.1625 5.44385 4.97177 5.52284 4.7729 5.52284C4.57403 5.52284 4.38329 5.44385 4.24265 5.30325Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">home</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Gallery</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Contact</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item has-submenu">
+          <a href="conference.html" class="header__menu-link">
+            Conference
+            <svg class="arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.24265 5.30325L-0.000102997 1.0605L1.0604 -3.70913e-07L4.7729 3.7125L8.4854 -4.63559e-08L9.5459 1.0605L5.30315 5.30325C5.1625 5.44385 4.97177 5.52284 4.7729 5.52284C4.57403 5.52284 4.38329 5.44385 4.24265 5.30325Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">home</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Gallery</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Contact</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item has-submenu">
+          <a href="news.html" class="header__menu-link">
+            News & Press releases
+            <svg class="arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.24265 5.30325L-0.000102997 1.0605L1.0604 -3.70913e-07L4.7729 3.7125L8.4854 -4.63559e-08L9.5459 1.0605L5.30315 5.30325C5.1625 5.44385 4.97177 5.52284 4.7729 5.52284C4.57403 5.52284 4.38329 5.44385 4.24265 5.30325Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">home</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Gallery</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Contact</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item has-submenu">
+          <a href="about.html" class="header__menu-link">
+            About
+            <svg class="arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.24265 5.30325L-0.000102997 1.0605L1.0604 -3.70913e-07L4.7729 3.7125L8.4854 -4.63559e-08L9.5459 1.0605L5.30315 5.30325C5.1625 5.44385 4.97177 5.52284 4.7729 5.52284C4.57403 5.52284 4.38329 5.44385 4.24265 5.30325Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+          <ul class="submenu">
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">home</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Gallery</a>
+            </li>
+            <li class="submenu__item">
+              <a href="#" class="submenu__link">Contact</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item">
+          <a href="news.html" class="header__menu-link">
+            News
+          </a>
+        </li>
+        <li class="header__menu-item">
+          <a href="contact.html" class="header__menu-link">
+            Contacts
+          </a>
+        </li>
+      </ul>
+      <ul class="header__language">
+        <li class="header__language-item">
+          <a href="#" class="header__language-link">
+            KZ
+          </a>
+        </li>
+        <li class="header__language-item">
+          <a href="#" class="header__language-link">
+            EN
+          </a>
+        </li>
+        <li class="header__language-item">
+          <a href="#" class="header__language-link">
+            RU
+          </a>
+        </li>
+      </ul>
+      <a href="become.html" class="header__btn btn btn-green">Book a Booth</a>
+    </nav>
+
+    <ul class="header__language">
+      <li class="header__language-item">
+        <a href="#" class="header__language-link">
+          KZ
+        </a>
+      </li>
+      <li class="header__language-item">
+        <a href="#" class="header__language-link">
+          EN
+        </a>
+      </li>
+      <li class="header__language-item">
+        <a href="#" class="header__language-link">
+          RU
+        </a>
+      </li>
+    </ul>
+    <a href="become.html" class="header__btn btn btn-green">Book a Booth</a>
+    <button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+    <main class="main">
+      <section class="intro intro--theree">
+        <div class="container">
+          <h1 class="intro__title">
+            2nd Annual Conference on Decarbonisation & Renewable Energy in Central Asia 2026
+          </h1>
+          <p class="intro__text">
+            Join 200+ leading companies showcasing green energy solutions to 20,000+ industry professionals
+            from across Central Asia and CIS countries.
+          </p>
+          <div class="intro__buttons">
+            <a href="#" class="intro__btn btn btn-white">
+              View Full Program
+            </a>
+            <a href="#" class="intro__btn btn btn-white">
+              Register for Conference
+            </a>
+          </div>
+        </div>
+      </section>
+       <section class="section section--sex">
+        <div class="container">
+          <h2 class="section__title title">
+
+          </h2>
+          <ul class="section__items">
+            <li class="section__item">
+              <h4 class="section__item-number">
+                50+
+              </h4>
+              <div class="section__items-text">
+                Expert Speakers
+              </div>
+            </li>
+            <li class="section__item">
+              <h4 class="section__item-number">
+                25+
+              </h4>
+              <div class="section__items-text">
+                Technical Sessions
+              </div>
+            </li>
+            <li class="section__item">
+              <h4 class="section__item-number">
+                15+
+              </h4>
+              <div class="section__items-text">
+                Panel Discussions
+              </div>
+            </li>
+            <li class="section__item">
+              <h4 class="section__item-number">
+                5,000+
+              </h4>
+              <div class="section__items-text">
+                Conference Attendees
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="speakers">
+        <div class="container">
+          <h2 class="speakers__title title--two">
+            Keynote Speakers
+          </h2>
+          <ul class="speakers__list">
+            <li class="speakers__item">
+              <div class="speakers__item-user">
+                <img src="img/speak-1.svg" alt="user">
+              </div>
+              <h5 class="speakers__item-title">
+                Dr. Elena Petrov
+              </h5>
+              <div class="speakers__item-subtitle">
+                Director of Renewable Energy, European Energy Council
+              </div>
+              <div class="speakers__item-descr">
+                The Future of Renewable Energy in Central Asia
+              </div>
+              <p class="speakers__item-text">
+                Leading expert in renewable energy policy with 20+ years of experience in sustainable
+                energy development across Europe and Asia.
+              </p>
+            </li>
+            <li class="speakers__item">
+              <div class="speakers__item-user">
+                <img src="img/speak-2.svg" alt="user">
+              </div>
+              <h5 class="speakers__item-title">
+                James Chen
+              </h5>
+              <div class="speakers__item-subtitle">
+                CEO, SolarTech Innovations
+              </div>
+              <div class="speakers__item-descr">
+                Breakthrough Technologies in Solar Energy
+              </div>
+              <p class="speakers__item-text">
+                Pioneer in solar technology innovation, holding 15+ patents and leading a company that
+                has installed 2GW of solar capacity globally.
+              </p>
+            </li>
+            <li class="speakers__item">
+              <div class="speakers__item-user">
+                <img src="img/speak-3.svg" alt="user">
+              </div>
+              <h5 class="speakers__item-title">
+                Dr. Amara Singh
+              </h5>
+              <div class="speakers__item-subtitle">
+                Chief Scientist, Global Energy Storage Alliance
+              </div>
+              <div class="speakers__item-descr">
+                Energy Storage: Enabling the Grid of Tomorrow
+              </div>
+              <p class="speakers__item-text">
+                World-renowned researcher in battery technology and grid-scale energy storage solutions,
+                published 100+ research papers.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="program program--two">
+        <div class="container">
+          <h2 class="program__title title--two">
+            Conference Program
+          </h2>
+          <div class="tabs" data-tabs="program-tabs">
+            <ul class="list-reset tabs__nav">
+              <li class="tabs__nav-item">
+                <button class="btn-reset tabs__nav-btn" type="button">
+                  Day 1 — April 28
+                </button>
+              </li>
+              <li class="tabs__nav-item">
+                <button class="btn-reset tabs__nav-btn" type="button">
+                  Day 2 — April 29
+                </button>
+              </li>
+              <li class="tabs__nav-item">
+                <button class="btn-reset tabs__nav-btn" type="button">
+                  Day 3 — April 30
+                </button>
+              </li>
+            </ul>
+            <div class="tabs__content">
+              <div class="tabs__panel">
+                <div class="program__content program__info">
+                  <h3 class="program__content-title program__info-title">
+                    Day 1 — April 28, 2026
+                  </h3>
+                  <ul class="program__items">
+                    <li class="program__item">
+                      <div class="program__item-top">
+                        <div class="program__item-info">
+                          <div class="program__item-time">
+                            10:00 — 11:00
+                          </div>
+                          <div class="program__item-point">
+                            Keynote
+                          </div>
+                        </div>
+                        <div class="program__item-span">
+                          Main Stage
+                        </div>
+                      </div>
+                      <h4 class="program__item-title">
+                        Opening Keynote: The Future of Renewable Energy in Central Asia
+                      </h4>
+                      <div class="program__item-descr">
+                        <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M12.3 9C12.3 12 9.76 14.1 7 14.1C4.24 14.1 1.7 12 1.7 9H0C0 12.41 2.72 15.23 6 15.72V19H8V15.72C11.28 15.23 14 12.41 14 9M5.8 2.9C5.8 2.24 6.34 1.7 7 1.7C7.66 1.7 8.2 2.24 8.2 2.9L8.19 9.1C8.19 9.76 7.66 10.3 7 10.3C6.34 10.3 5.8 9.76 5.8 9.1M7 12C7.79565 12 8.55871 11.6839 9.12132 11.1213C9.68393 10.5587 10 9.79565 10 9V3C10 2.20435 9.68393 1.44129 9.12132 0.87868C8.55871 0.316071 7.79565 0 7 0C6.20435 0 5.44129 0.316071 4.87868 0.87868C4.31607 1.44129 4 2.20435 4 3V9C4 9.79565 4.31607 10.5587 4.87868 11.1213C5.44129 11.6839 6.20435 12 7 12Z"
+                            fill="#4A5565" />
+                        </svg>
+                        Dr. Elena Petrov
+                      </div>
+                    </li>
+                    <li class="program__item">
+                      <div class="program__item-top">
+                        <div class="program__item-info">
+                          <div class="program__item-time">
+                            11:30 — 12:30
+                          </div>
+                          <div class="program__item-point">
+                            Panel
+                          </div>
+                        </div>
+                        <div class="program__item-span">
+                          Finance Track
+                        </div>
+                      </div>
+                      <h4 class="program__item-title">
+                        Investment Opportunities in Green Energy
+                      </h4>
+                      <div class="program__item-descr">
+                        <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M12.3 9C12.3 12 9.76 14.1 7 14.1C4.24 14.1 1.7 12 1.7 9H0C0 12.41 2.72 15.23 6 15.72V19H8V15.72C11.28 15.23 14 12.41 14 9M5.8 2.9C5.8 2.24 6.34 1.7 7 1.7C7.66 1.7 8.2 2.24 8.2 2.9L8.19 9.1C8.19 9.76 7.66 10.3 7 10.3C6.34 10.3 5.8 9.76 5.8 9.1M7 12C7.79565 12 8.55871 11.6839 9.12132 11.1213C9.68393 10.5587 10 9.79565 10 9V3C10 2.20435 9.68393 1.44129 9.12132 0.87868C8.55871 0.316071 7.79565 0 7 0C6.20435 0 5.44129 0.316071 4.87868 0.87868C4.31607 1.44129 4 2.20435 4 3V9C4 9.79565 4.31607 10.5587 4.87868 11.1213C5.44129 11.6839 6.20435 12 7 12Z"
+                            fill="#4A5565" />
+                        </svg>
+                        Panel Discussion
+                      </div>
+                    </li>
+                    <li class="program__item">
+                      <div class="program__item-top">
+                        <div class="program__item-info">
+                          <div class="program__item-time">
+                            14:00 — 15:00
+                          </div>
+                          <div class="program__item-point">
+                            Technical
+                          </div>
+                        </div>
+                        <div class="program__item-span">
+                          Technology Track
+                        </div>
+                      </div>
+                      <h4 class="program__item-title">
+                        Smart Grid Technologies for Emerging Markets
+                      </h4>
+                      <div class="program__item-descr">
+                        <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M12.3 9C12.3 12 9.76 14.1 7 14.1C4.24 14.1 1.7 12 1.7 9H0C0 12.41 2.72 15.23 6 15.72V19H8V15.72C11.28 15.23 14 12.41 14 9M5.8 2.9C5.8 2.24 6.34 1.7 7 1.7C7.66 1.7 8.2 2.24 8.2 2.9L8.19 9.1C8.19 9.76 7.66 10.3 7 10.3C6.34 10.3 5.8 9.76 5.8 9.1M7 12C7.79565 12 8.55871 11.6839 9.12132 11.1213C9.68393 10.5587 10 9.79565 10 9V3C10 2.20435 9.68393 1.44129 9.12132 0.87868C8.55871 0.316071 7.79565 0 7 0C6.20435 0 5.44129 0.316071 4.87868 0.87868C4.31607 1.44129 4 2.20435 4 3V9C4 9.79565 4.31607 10.5587 4.87868 11.1213C5.44129 11.6839 6.20435 12 7 12Z"
+                            fill="#4A5565" />
+                        </svg>
+                        Technical Experts
+                      </div>
+                    </li>
+                    <li class="program__item">
+                      <div class="program__item-top">
+                        <div class="program__item-info">
+                          <div class="program__item-time">
+                            15:30 — 16:30
+                          </div>
+                          <div class="program__item-point">
+                            Policy
+                          </div>
+                        </div>
+                        <div class="program__item-span">
+                          Policy Track
+                        </div>
+                      </div>
+                      <h4 class="program__item-title">
+                        Policy Frameworks for Sustainable Energy
+                      </h4>
+                      <div class="program__item-descr">
+                        <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M12.3 9C12.3 12 9.76 14.1 7 14.1C4.24 14.1 1.7 12 1.7 9H0C0 12.41 2.72 15.23 6 15.72V19H8V15.72C11.28 15.23 14 12.41 14 9M5.8 2.9C5.8 2.24 6.34 1.7 7 1.7C7.66 1.7 8.2 2.24 8.2 2.9L8.19 9.1C8.19 9.76 7.66 10.3 7 10.3C6.34 10.3 5.8 9.76 5.8 9.1M7 12C7.79565 12 8.55871 11.6839 9.12132 11.1213C9.68393 10.5587 10 9.79565 10 9V3C10 2.20435 9.68393 1.44129 9.12132 0.87868C8.55871 0.316071 7.79565 0 7 0C6.20435 0 5.44129 0.316071 4.87868 0.87868C4.31607 1.44129 4 2.20435 4 3V9C4 9.79565 4.31607 10.5587 4.87868 11.1213C5.44129 11.6839 6.20435 12 7 12Z"
+                            fill="#4A5565" />
+                        </svg>
+                        Government Officials
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tabs__panel">
+
+              </div>
+              <div class="tabs__panel">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="highlights">
+        <div class="container">
+          <div class="highlights__wrapp">
+            <div class="highlights__info">
+              <h2 class="highlights__title title--two">
+                Conference Highlights
+              </h2>
+              <ul class="highlights__items">
+                <li class="highlights__item">
+                  <h5 class="highlights__item-title">
+                    <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0 6.999C0 8.901 0.765 10.626 2 11.889V19C1.99937 19.1707 2.04252 19.3387 2.12533 19.4879C2.20814 19.6372 2.32785 19.7627 2.47301 19.8525C2.61818 19.9423 2.78394 19.9933 2.95446 20.0008C3.12498 20.0082 3.29457 19.9718 3.447 19.895L7 18.118L10.553 19.894C10.705 19.9711 10.8744 20.0077 11.0446 20.0001C11.2149 19.9926 11.3804 19.9412 11.525 19.851C11.82 19.668 12 19.347 12 19V11.89C13.2819 10.5848 14.0001 8.82843 14 6.999C14 3.14 10.86 0 7 0C3.14 0 0 3.14 0 6.999ZM7.447 16.105C7.30807 16.0355 7.15485 15.9993 6.9995 15.9993C6.84415 15.9993 6.69093 16.0355 6.552 16.105L4 17.382V13.315C4.911 13.749 5.926 14 7 14C8.074 14 9.089 13.75 10 13.315V17.381L7.447 16.105ZM7 2C9.756 2 12 4.242 12 6.999C11.9987 8.32477 11.4715 9.59587 10.5341 10.5334C9.59677 11.471 8.32577 11.9984 7 12C4.243 12 2 9.757 2 6.999C2.00159 5.6735 2.52891 4.40275 3.46628 3.46557C4.40365 2.5284 5.6745 2.00132 7 2Z"
+                        fill="#9911FA" />
+                    </svg>
+                    Industry Recognition
+                  </h5>
+                  <p class="highlights__item-descr">
+                    Innovation awards ceremony recognizing breakthrough technologies and outstanding contributions to
+                    green energy.
+                  </p>
+                </li>
+                <li class="highlights__item">
+                  <h5 class="highlights__item-title">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.857422 18.8572V16.8572C0.857422 15.7963 1.27885 14.7789 2.02899 14.0288C2.77914 13.2786 3.79656 12.8572 4.85742 12.8572H8.85742C9.91829 12.8572 10.9357 13.2786 11.6858 14.0288C12.436 14.7789 12.8574 15.7963 12.8574 16.8572V18.8572M13.8574 0.987178C14.7178 1.20748 15.4805 1.70788 16.0251 2.40949C16.5697 3.1111 16.8653 3.97401 16.8653 4.86218C16.8653 5.75035 16.5697 6.61326 16.0251 7.31487C15.4805 8.01648 14.7178 8.51688 13.8574 8.73718M18.8574 18.8572V16.8572C18.8523 15.9743 18.5553 15.118 18.0127 14.4216C17.47 13.7252 16.7122 13.2279 15.8574 13.0072M2.85742 4.85718C2.85742 5.91804 3.27885 6.93546 4.02899 7.68561C4.77914 8.43575 5.79656 8.85718 6.85742 8.85718C7.91829 8.85718 8.9357 8.43575 9.68585 7.68561C10.436 6.93546 10.8574 5.91804 10.8574 4.85718C10.8574 3.79631 10.436 2.7789 9.68585 2.02875C8.9357 1.2786 7.91829 0.857178 6.85742 0.857178C5.79656 0.857178 4.77914 1.2786 4.02899 2.02875C3.27885 2.7789 2.85742 3.79631 2.85742 4.85718Z"
+                        stroke="#9911FA" stroke-width="1.71429" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Networking Opportunities
+                  </h5>
+                  <p class="highlights__item-descr">
+                    Structured networking sessions, coffee breaks, and exclusive receptions for meaningful connections.
+                  </p>
+                </li>
+                <li class="highlights__item">
+                  <h5 class="highlights__item-title">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M9.75 0C7.82164 0 5.93657 0.571828 4.33319 1.64317C2.72982 2.71451 1.48013 4.23726 0.742179 6.01884C0.00422452 7.80042 -0.188858 9.76082 0.187348 11.6521C0.563554 13.5434 1.49215 15.2807 2.85571 16.6443C4.21928 18.0079 5.95656 18.9365 7.84787 19.3127C9.73919 19.6889 11.6996 19.4958 13.4812 18.7578C15.2627 18.0199 16.7855 16.7702 17.8568 15.1668C18.9282 13.5634 19.5 11.6784 19.5 9.75C19.497 7.16505 18.4688 4.68683 16.641 2.859C14.8132 1.03116 12.335 0.00297748 9.75 0ZM18 9.75C18.0007 10.5108 17.8956 11.2681 17.6878 12H14.0775C14.3076 10.5088 14.3076 8.99118 14.0775 7.5H17.6878C17.8956 8.23192 18.0007 8.98916 18 9.75ZM7.3125 13.5H12.1875C11.7073 15.0737 10.8735 16.5167 9.75 17.7188C8.62703 16.5163 7.79335 15.0734 7.3125 13.5ZM6.94688 12C6.68931 10.5111 6.68931 8.98894 6.94688 7.5H12.5606C12.8182 8.98894 12.8182 10.5111 12.5606 12H6.94688ZM1.5 9.75C1.49934 8.98916 1.60441 8.23192 1.81219 7.5H5.4225C5.19244 8.99118 5.19244 10.5088 5.4225 12H1.81219C1.60441 11.2681 1.49934 10.5108 1.5 9.75ZM12.1875 6H7.3125C7.79274 4.42631 8.6265 2.98328 9.75 1.78125C10.873 2.98367 11.7067 4.42657 12.1875 6ZM17.0934 6H13.7541C13.3331 4.45587 12.6238 3.00534 11.6634 1.725C12.8238 2.00375 13.9102 2.5301 14.848 3.26799C15.7859 4.00588 16.5532 4.93784 17.0972 6H17.0934ZM7.83657 1.725C6.87623 3.00534 6.16687 4.45587 5.74594 6H2.40282C2.94682 4.93784 3.71407 4.00588 4.65196 3.26799C5.58985 2.5301 6.67621 2.00375 7.83657 1.725ZM2.40282 13.5H5.74594C6.16687 15.0441 6.87623 16.4947 7.83657 17.775C6.67621 17.4963 5.58985 16.9699 4.65196 16.232C3.71407 15.4941 2.94682 14.5622 2.40282 13.5ZM11.6634 17.775C12.6238 16.4947 13.3331 15.0441 13.7541 13.5H17.0972C16.5532 14.5622 15.7859 15.4941 14.848 16.232C13.9102 16.9699 12.8238 17.4963 11.6634 17.775Z"
+                        fill="#9911FA" />
+                    </svg>
+                    Global Perspectives
+                  </h5>
+                  <p class="highlights__item-descr">
+                    International speakers sharing insights from successful green energy implementations worldwide.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="highlights__photo">
+              <img src="img/highlights-1.png" alt="photo">
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section class="registration">
+        <div class="container">
+          <h2 class="registration__title title--two">
+            Conference Registration
+          </h2>
+          <div class="registration__cards">
+            <div class="registration__info">
+              <h3 class="registration__info-title">
+                What’s Included
+              </h3>
+              <ul class="registration__info-list">
+                <li class="registration__info-item">
+                  <svg width="24" height="27" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1.24609 9.24634H22.5794M1.24609 9.24634V20.9797C1.24609 22.473 1.24609 23.2197 1.53676 23.7903C1.79242 24.2921 2.20035 24.7 2.70209 24.9557C3.27143 25.2463 4.01809 25.2463 5.50876 25.2463H18.3168C19.8074 25.2463 20.5528 25.2463 21.1221 24.9557C21.6248 24.6997 22.0328 24.2917 22.2888 23.7903C22.5794 23.2197 22.5794 22.4757 22.5794 20.985V9.24634M1.24609 9.24634V8.17967C1.24609 6.68634 1.24609 5.93967 1.53676 5.369C1.79276 4.86634 2.19943 4.45967 2.70209 4.20367C3.27276 3.913 4.01943 3.913 5.51276 3.913H6.57943M22.5794 9.24634V8.17567C22.5794 6.685 22.5794 5.93834 22.2888 5.369C22.0328 4.86706 21.6243 4.4591 21.1221 4.20367C20.5528 3.913 19.8061 3.913 18.3128 3.913H17.2461M6.57943 3.913H17.2461M6.57943 3.913V1.24634M17.2461 3.913V1.24634"
+                      stroke="#9911FA" stroke-width="2.49275" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  Access to all conference sessions
+                </li>
+                <li class="registration__info-item">
+                  <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1 22V19.6667C1 18.429 1.49167 17.242 2.36683 16.3668C3.242 15.4917 4.42899 15 5.66667 15H10.3333C11.571 15 12.758 15.4917 13.6332 16.3668C14.5083 17.242 15 18.429 15 19.6667V22M16.1667 1.15167C17.1705 1.40868 18.0602 1.99248 18.6956 2.81103C19.3309 3.62957 19.6758 4.6363 19.6758 5.6725C19.6758 6.7087 19.3309 7.71543 18.6956 8.53397C18.0602 9.35251 17.1705 9.93632 16.1667 10.1933M22 22V19.6667C21.9941 18.6367 21.6476 17.6376 21.0145 16.8251C20.3814 16.0127 19.4973 15.4325 18.5 15.175M3.33333 5.66667C3.33333 6.90434 3.825 8.09133 4.70017 8.9665C5.57534 9.84167 6.76232 10.3333 8 10.3333C9.23768 10.3333 10.4247 9.84167 11.2998 8.9665C12.175 8.09133 12.6667 6.90434 12.6667 5.66667C12.6667 4.42899 12.175 3.242 11.2998 2.36683C10.4247 1.49167 9.23768 1 8 1C6.76232 1 5.57534 1.49167 4.70017 2.36683C3.825 3.242 3.33333 4.42899 3.33333 5.66667Z"
+                      stroke="#9911FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  Networking events and receptions
+                </li>
+                <li class="registration__info-item">
+                  <svg width="17" height="24" viewBox="0 0 17 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0 8.1655C0 10.3845 0.8925 12.397 2.33333 13.8705V22.1667C2.33259 22.3658 2.38294 22.5618 2.47955 22.7359C2.57617 22.91 2.71583 23.0565 2.88518 23.1612C3.05454 23.266 3.24793 23.3255 3.44687 23.3342C3.64581 23.3429 3.84366 23.3004 4.0215 23.2108L8.16667 21.1377L12.3118 23.2097C12.4892 23.2996 12.6868 23.3423 12.8854 23.3335C13.0841 23.3247 13.2771 23.2648 13.4458 23.1595C13.79 22.946 14 22.5715 14 22.1667V13.8717C15.4955 12.3489 16.3334 10.2998 16.3333 8.1655C16.3333 3.66333 12.67 0 8.16667 0C3.66333 0 0 3.66333 0 8.1655ZM8.68817 18.7892C8.52608 18.7081 8.34733 18.6658 8.16608 18.6658C7.98484 18.6658 7.80608 18.7081 7.644 18.7892L4.66667 20.279V15.5342C5.7295 16.0405 6.91367 16.3333 8.16667 16.3333C9.41967 16.3333 10.6038 16.0417 11.6667 15.5342V20.2778L8.68817 18.7892ZM8.16667 2.33333C11.382 2.33333 14 4.949 14 8.1655C13.9985 9.71223 13.3834 11.1952 12.2898 12.289C11.1962 13.3828 9.7134 13.9981 8.16667 14C4.95017 14 2.33333 11.3832 2.33333 8.1655C2.33519 6.61908 2.9504 5.13655 4.04399 4.04317C5.13759 2.94979 6.62025 2.33488 8.16667 2.33333Z"
+                      fill="#9911FA" />
+                  </svg>
+                  Certificate of attendance
+                </li>
+                <li class="registration__info-item">
+                  <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.2328 21.3768C16.8357 21.3768 21.3777 16.8347 21.3777 11.2318C21.3777 5.62895 16.8357 1.08691 11.2328 1.08691C5.62993 1.08691 1.08789 5.62895 1.08789 11.2318C1.08789 16.8347 5.62993 21.3768 11.2328 21.3768Z"
+                      stroke="#9911FA" stroke-width="2.17391" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M11.2344 6.15942V11.2319L14.2779 14.2754" stroke="#9911FA" stroke-width="2.17391"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  Conference materials and recordings
+                </li>
+              </ul>
+            </div>
+            <div class="registration__content">
+              <div class="registration__content-price">
+                $299 <span>$399</span>
+              </div>
+              <div class="registration__content-text">
+                Early Bird Price
+              </div>
+              <a href="#" class="registration__content-btn btn">
+                Register for Conference
+              </a>
+              <div class="registration__content-descr">
+                Early bird pricing valid until March 15, 2026
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta cta--two cta--sex">
+        <div class="container">
+          <h2 class="cta__title">
+            Join the Conversation
+          </h2>
+          <p class="cta__subtitle text">
+            Be part of the most important discussions shaping the future of green energy in Central Asia.
+          </p>
+          <div class="cta__buttons">
+            <a href="#" class="cta__buttons-btn btn btn-white">
+              Register Now
+            </a>
+            <a href="#" class="cta__buttons-btn btn btn-white">
+              Become a Speaker
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__top">
+      <div class="footer__info">
+        <a href="#" class="footer__logo">
+          <img src="img/footer-logo.svg" alt="PowerTechEXPO">
+        </a>
+        <p class="footer__desc text">
+          24th International Exhibition on Renewable & Alternative Energy & Technologies
+        </p>
+        <ul class="footer__details">
+          <li class="footer__detail">
+            <span class="footer__icon footer__icon--location">
+              <svg width="18" height="23" viewBox="0 0 18 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17 9C17 15.5 9 21 9 21C9 21 1 15.5 1 9C1 6.87827 1.84285 4.84344 3.34315 3.34315C4.84344 1.84285 6.87827 1 9 1C11.1217 1 13.1566 1.84285 14.6569 3.34315C16.1571 4.84344 17 6.87827 17 9Z"
+                  stroke="white" stroke-width="2" />
+                <path
+                  d="M12 9C12 9.79565 11.6839 10.5587 11.1213 11.1213C10.5587 11.6839 9.79565 12 9 12C8.20435 12 7.44129 11.6839 6.87868 11.1213C6.31607 10.5587 6 9.79565 6 9C6 8.20435 6.31607 7.44129 6.87868 6.87868C7.44129 6.31607 8.20435 6 9 6C9.79565 6 10.5587 6.31607 11.1213 6.87868C11.6839 7.44129 12 8.20435 12 9Z"
+                  stroke="white" stroke-width="2" />
+              </svg>
+            </span>
+            April 28–30, 2026
+          </li>
+          <li class="footer__detail">
+            <span class="footer__icon footer__icon--calendar">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 12C2 8.229 2 6.343 3.172 5.172C4.344 4.001 6.229 4 10 4H14C17.771 4 19.657 4 20.828 5.172C21.999 6.344 22 8.229 22 12V14C22 17.771 22 19.657 20.828 20.828C19.656 21.999 17.771 22 14 22H10C6.229 22 4.343 22 3.172 20.828C2.001 19.656 2 17.771 2 14V12Z"
+                  stroke="white" stroke-width="1.5" />
+                <path d="M7 4V2.5M17 4V2.5M2.5 9H21.5" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                <path
+                  d="M18 17C18 17.2652 17.8946 17.5196 17.7071 17.7071C17.5196 17.8946 17.2652 18 17 18C16.7348 18 16.4804 17.8946 16.2929 17.7071C16.1054 17.5196 16 17.2652 16 17C16 16.7348 16.1054 16.4804 16.2929 16.2929C16.4804 16.1054 16.7348 16 17 16C17.2652 16 17.5196 16.1054 17.7071 16.2929C17.8946 16.4804 18 16.7348 18 17ZM18 13C18 13.2652 17.8946 13.5196 17.7071 13.7071C17.5196 13.8946 17.2652 14 17 14C16.7348 14 16.4804 13.8946 16.2929 13.7071C16.1054 13.5196 16 13.2652 16 13C16 12.7348 16.1054 12.4804 16.2929 12.2929C16.4804 12.1054 16.7348 12 17 12C17.2652 12 17.5196 12.1054 17.7071 12.2929C17.8946 12.4804 18 12.7348 18 13ZM13 17C13 17.2652 12.8946 17.5196 12.7071 17.7071C12.5196 17.8946 12.2652 18 12 18C11.7348 18 11.4804 17.8946 11.2929 17.7071C11.1054 17.5196 11 17.2652 11 17C11 16.7348 11.1054 16.4804 11.2929 16.2929C11.4804 16.1054 11.7348 16 12 16C12.2652 16 12.5196 16.1054 12.7071 16.2929C12.8946 16.4804 13 16.7348 13 17ZM13 13C13 13.2652 12.8946 13.5196 12.7071 13.7071C12.5196 13.8946 12.2652 14 12 14C11.7348 14 11.4804 13.8946 11.2929 13.7071C11.1054 13.5196 11 13.2652 11 13C11 12.7348 11.1054 12.4804 11.2929 12.2929C11.4804 12.1054 11.7348 12 12 12C12.2652 12 12.5196 12.1054 12.7071 12.2929C12.8946 12.4804 13 12.7348 13 13ZM8 17C8 17.2652 7.89464 17.5196 7.70711 17.7071C7.51957 17.8946 7.26522 18 7 18C6.73478 18 6.48043 17.8946 6.29289 17.7071C6.10536 17.5196 6 17.2652 6 17C6 16.7348 6.10536 16.4804 6.29289 16.2929C6.48043 16.1054 6.73478 16 7 16C7.26522 16 7.51957 16.1054 7.70711 16.2929C7.89464 16.4804 8 16.7348 8 17ZM8 13C8 13.2652 7.89464 13.5196 7.70711 13.7071C7.51957 13.8946 7.26522 14 7 14C6.73478 14 6.48043 13.8946 6.29289 13.7071C6.10536 13.5196 6 13.2652 6 13C6 12.7348 6.10536 12.4804 6.29289 12.2929C6.48043 12.1054 6.73478 12 7 12C7.26522 12 7.51957 12.1054 7.70711 12.2929C7.89464 12.4804 8 12.7348 8 13Z"
+                  fill="white" />
+              </svg>
+            </span>
+            Almaty, Atakent Exhibition Centre
+          </li>
+        </ul>
+      </div>
+
+      <!-- Блок: быстрые ссылки -->
+      <div class="footer__links">
+        <h3 class="footer__title">Quick Links</h3>
+        <ul class="footer__list">
+          <li><a href="#">For Exhibitors</a></li>
+          <li><a href="#">For Visitors</a></li>
+          <li><a href="#">Conference Program</a></li>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">About PowerTech</a></li>
+          <li><a href="#">News & Updates</a></li>
+        </ul>
+      </div>
+
+      <!-- Блок: контакты -->
+      <div class="footer__contacts">
+        <h3 class="footer__title">Contact Us</h3>
+        <div class="footer__person">
+          <h4 class="footer__name">Altair Bekmuratov</h4>
+          <a href="tel:+77271234567" class="footer__contact footer__contact--phone">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.95 18C14.8667 18 12.8083 17.546 10.775 16.638C8.74167 15.73 6.89167 14.4423 5.225 12.775C3.55833 11.1077 2.271 9.25767 1.363 7.225C0.455 5.19233 0.000666667 3.134 0 1.05C0 0.75 0.0999999 0.5 0.3 0.3C0.5 0.0999999 0.75 0 1.05 0H5.1C5.33333 0 5.54167 0.0793332 5.725 0.238C5.90833 0.396667 6.01667 0.584 6.05 0.8L6.7 4.3C6.73333 4.56667 6.725 4.79167 6.675 4.975C6.625 5.15833 6.53333 5.31667 6.4 5.45L3.975 7.9C4.30833 8.51667 4.704 9.11233 5.162 9.687C5.62 10.2617 6.12433 10.816 6.675 11.35C7.19167 11.8667 7.73333 12.346 8.3 12.788C8.86667 13.23 9.46667 13.634 10.1 14L12.45 11.65C12.6 11.5 12.796 11.3877 13.038 11.313C13.28 11.2383 13.5173 11.2173 13.75 11.25L17.2 11.95C17.4333 12.0167 17.625 12.1377 17.775 12.313C17.925 12.4883 18 12.684 18 12.9V16.95C18 17.25 17.9 17.5 17.7 17.7C17.5 17.9 17.25 18 16.95 18ZM3.025 6L4.675 4.35L4.25 2H2.025C2.10833 2.68333 2.225 3.35833 2.375 4.025C2.525 4.69167 2.74167 5.35 3.025 6ZM11.975 14.95C12.625 15.2333 13.2877 15.4583 13.963 15.625C14.6383 15.7917 15.3173 15.9 16 15.95V13.75L13.65 13.275L11.975 14.95Z"
+                fill="white" />
+            </svg>
+            +7 (727-12) 3-45-67
+          </a>
+          <a href="mailto:altair@eventindustries.kz" class="footer__contact footer__contact--mail">
+            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2 16C1.45 16 0.979333 15.8043 0.588 15.413C0.196667 15.0217 0.000666667 14.5507 0 14V2C0 1.45 0.196 0.979333 0.588 0.588C0.98 0.196666 1.45067 0.000666667 2 0H18C18.55 0 19.021 0.196 19.413 0.588C19.805 0.98 20.0007 1.45067 20 2V14C20 14.55 19.8043 15.021 19.413 15.413C19.0217 15.805 18.5507 16.0007 18 16H2ZM10 9L2 4V14H18V4L10 9ZM10 7L18 2H2L10 7ZM2 4V2V14V4Z"
+                fill="white" />
+            </svg>
+            altair@eventindustries.kz</a>
+        </div>
+        <div class="footer__person">
+          <h4 class="footer__name">Rania Sultanova</h4>
+          <a href="tel:+77271234567" class="footer__contact footer__contact--phone">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.95 18C14.8667 18 12.8083 17.546 10.775 16.638C8.74167 15.73 6.89167 14.4423 5.225 12.775C3.55833 11.1077 2.271 9.25767 1.363 7.225C0.455 5.19233 0.000666667 3.134 0 1.05C0 0.75 0.0999999 0.5 0.3 0.3C0.5 0.0999999 0.75 0 1.05 0H5.1C5.33333 0 5.54167 0.0793332 5.725 0.238C5.90833 0.396667 6.01667 0.584 6.05 0.8L6.7 4.3C6.73333 4.56667 6.725 4.79167 6.675 4.975C6.625 5.15833 6.53333 5.31667 6.4 5.45L3.975 7.9C4.30833 8.51667 4.704 9.11233 5.162 9.687C5.62 10.2617 6.12433 10.816 6.675 11.35C7.19167 11.8667 7.73333 12.346 8.3 12.788C8.86667 13.23 9.46667 13.634 10.1 14L12.45 11.65C12.6 11.5 12.796 11.3877 13.038 11.313C13.28 11.2383 13.5173 11.2173 13.75 11.25L17.2 11.95C17.4333 12.0167 17.625 12.1377 17.775 12.313C17.925 12.4883 18 12.684 18 12.9V16.95C18 17.25 17.9 17.5 17.7 17.7C17.5 17.9 17.25 18 16.95 18ZM3.025 6L4.675 4.35L4.25 2H2.025C2.10833 2.68333 2.225 3.35833 2.375 4.025C2.525 4.69167 2.74167 5.35 3.025 6ZM11.975 14.95C12.625 15.2333 13.2877 15.4583 13.963 15.625C14.6383 15.7917 15.3173 15.9 16 15.95V13.75L13.65 13.275L11.975 14.95Z"
+                fill="white" />
+            </svg>
+            +7 (727-12) 3-45-67</a>
+          <a href="mailto:rania@eventindustries.kz" class="footer__contact footer__contact--mail">
+            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2 16C1.45 16 0.979333 15.8043 0.588 15.413C0.196667 15.0217 0.000666667 14.5507 0 14V2C0 1.45 0.196 0.979333 0.588 0.588C0.98 0.196666 1.45067 0.000666667 2 0H18C18.55 0 19.021 0.196 19.413 0.588C19.805 0.98 20.0007 1.45067 20 2V14C20 14.55 19.8043 15.021 19.413 15.413C19.0217 15.805 18.5507 16.0007 18 16H2ZM10 9L2 4V14H18V4L10 9ZM10 7L18 2H2L10 7ZM2 4V2V14V4Z"
+                fill="white" />
+            </svg>
+            rania@eventindustries.kz</a>
+        </div>
+      </div>
+
+      <!-- Блок: подписка -->
+      <div class="footer__subscribe">
+        <h3 class="footer__title">Stay Connected</h3>
+        <p class="footer__text text">
+          Subscribe for updates and announcements
+        </p>
+        <form class="footer__form" action="#" method="post">
+          <input type="email" class="footer__input" placeholder="Enter your email" required>
+          <button type="submit" class="footer__btn">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.7896 0.0744176C18.8056 -0.280582 19.7816 0.695418 19.4266 1.71142L13.5016 18.6414C13.1166 19.7394 11.5866 19.8014 11.1146 18.7384L8.25561 12.3064L12.2796 8.28142C12.4121 8.13924 12.4842 7.9512 12.4808 7.7569C12.4774 7.56259 12.3986 7.37721 12.2612 7.2398C12.1238 7.10238 11.9384 7.02367 11.7441 7.02024C11.5498 7.01681 11.3618 7.08894 11.2196 7.22142L7.19461 11.2454L0.762611 8.38642C-0.300389 7.91342 -0.23739 6.38442 0.85961 5.99942L17.7896 0.0744176Z"
+                fill="white" />
+            </svg>
+          </button>
+        </form>
+
+        <div class="footer__socials">
+          <p class="footer__social-title text">Follow Us</p>
+          <ul class="footer__social-list">
+            <li>
+              <a href="#" class="footer__social-link">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.8 0H14.2C17.4 0 20 2.6 20 5.8V14.2C20 15.7383 19.3889 17.2135 18.3012 18.3012C17.2135 19.3889 15.7383 20 14.2 20H5.8C2.6 20 0 17.4 0 14.2V5.8C0 4.26174 0.61107 2.78649 1.69878 1.69878C2.78649 0.61107 4.26174 0 5.8 0ZM5.6 2C4.64522 2 3.72955 2.37928 3.05442 3.05442C2.37928 3.72955 2 4.64522 2 5.6V14.4C2 16.39 3.61 18 5.6 18H14.4C15.3548 18 16.2705 17.6207 16.9456 16.9456C17.6207 16.2705 18 15.3548 18 14.4V5.6C18 3.61 16.39 2 14.4 2H5.6ZM15.25 3.5C15.5815 3.5 15.8995 3.6317 16.1339 3.86612C16.3683 4.10054 16.5 4.41848 16.5 4.75C16.5 5.08152 16.3683 5.39946 16.1339 5.63388C15.8995 5.8683 15.5815 6 15.25 6C14.9185 6 14.6005 5.8683 14.3661 5.63388C14.1317 5.39946 14 5.08152 14 4.75C14 4.41848 14.1317 4.10054 14.3661 3.86612C14.6005 3.6317 14.9185 3.5 15.25 3.5ZM10 5C11.3261 5 12.5979 5.52678 13.5355 6.46447C14.4732 7.40215 15 8.67392 15 10C15 11.3261 14.4732 12.5979 13.5355 13.5355C12.5979 14.4732 11.3261 15 10 15C8.67392 15 7.40215 14.4732 6.46447 13.5355C5.52678 12.5979 5 11.3261 5 10C5 8.67392 5.52678 7.40215 6.46447 6.46447C7.40215 5.52678 8.67392 5 10 5ZM10 7C9.20435 7 8.44129 7.31607 7.87868 7.87868C7.31607 8.44129 7 9.20435 7 10C7 10.7956 7.31607 11.5587 7.87868 12.1213C8.44129 12.6839 9.20435 13 10 13C10.7956 13 11.5587 12.6839 12.1213 12.1213C12.6839 11.5587 13 10.7956 13 10C13 9.20435 12.6839 8.44129 12.1213 7.87868C11.5587 7.31607 10.7956 7 10 7Z"
+                    fill="#131313" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__social-link">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16 0C16.5304 0 17.0391 0.210714 17.4142 0.585786C17.7893 0.960859 18 1.46957 18 2V16C18 16.5304 17.7893 17.0391 17.4142 17.4142C17.0391 17.7893 16.5304 18 16 18H2C1.46957 18 0.960859 17.7893 0.585786 17.4142C0.210714 17.0391 0 16.5304 0 16V2C0 1.46957 0.210714 0.960859 0.585786 0.585786C0.960859 0.210714 1.46957 0 2 0H16ZM15.5 15.5V10.2C15.5 9.33539 15.1565 8.5062 14.5452 7.89483C13.9338 7.28346 13.1046 6.94 12.24 6.94C11.39 6.94 10.4 7.46 9.92 8.24V7.13H7.13V15.5H9.92V10.57C9.92 9.8 10.54 9.17 11.31 9.17C11.6813 9.17 12.0374 9.3175 12.2999 9.58005C12.5625 9.8426 12.71 10.1987 12.71 10.57V15.5H15.5ZM3.88 5.56C4.32556 5.56 4.75288 5.383 5.06794 5.06794C5.383 4.75288 5.56 4.32556 5.56 3.88C5.56 2.95 4.81 2.19 3.88 2.19C3.43178 2.19 3.00193 2.36805 2.68499 2.68499C2.36805 3.00193 2.19 3.43178 2.19 3.88C2.19 4.81 2.95 5.56 3.88 5.56ZM5.27 15.5V7.13H2.5V15.5H5.27Z"
+                    fill="#131313" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__social-link">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.7896 0.0744176C18.8056 -0.280582 19.7816 0.695418 19.4266 1.71142L13.5016 18.6414C13.1166 19.7394 11.5866 19.8014 11.1146 18.7384L8.25561 12.3064L12.2796 8.28142C12.4121 8.13924 12.4842 7.9512 12.4808 7.7569C12.4774 7.56259 12.3986 7.37721 12.2612 7.2398C12.1238 7.10238 11.9384 7.02367 11.7441 7.02024C11.5498 7.01681 11.3618 7.08894 11.2196 7.22142L7.19461 11.2454L0.762611 8.38642C-0.300389 7.91342 -0.23739 6.38442 0.85961 5.99942L17.7896 0.0744176Z"
+                    fill="black" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="#" class="footer__download btn btn-green">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M8 11.575C7.86667 11.575 7.74167 11.5543 7.625 11.513C7.50833 11.4717 7.4 11.4007 7.3 11.3L3.7 7.7C3.5 7.5 3.404 7.26667 3.412 7C3.42 6.73334 3.516 6.5 3.7 6.3C3.9 6.1 4.13767 5.996 4.413 5.988C4.68833 5.98 4.92567 6.07567 5.125 6.275L7 8.15V1C7 0.71667 7.096 0.479337 7.288 0.288004C7.48 0.0966702 7.71733 0.000670115 8 3.44827e-06C8.28267 -0.000663218 8.52033 0.0953369 8.713 0.288004C8.90567 0.48067 9.00133 0.718003 9 1V8.15L10.875 6.275C11.075 6.075 11.3127 5.979 11.588 5.987C11.8633 5.995 12.1007 6.09934 12.3 6.3C12.4833 6.5 12.5793 6.73334 12.588 7C12.5967 7.26667 12.5007 7.5 12.3 7.7L8.7 11.3C8.6 11.4 8.49167 11.471 8.375 11.513C8.25833 11.555 8.13333 11.5757 8 11.575ZM2 16C1.45 16 0.979333 15.8043 0.588 15.413C0.196666 15.0217 0.000666667 14.5507 0 14V12C0 11.7167 0.0960001 11.4793 0.288 11.288C0.48 11.0967 0.717333 11.0007 1 11C1.28267 10.9993 1.52033 11.0953 1.713 11.288C1.90567 11.4807 2.00133 11.718 2 12V14H14V12C14 11.7167 14.096 11.4793 14.288 11.288C14.48 11.0967 14.7173 11.0007 15 11C15.2827 10.9993 15.5203 11.0953 15.713 11.288C15.9057 11.4807 16.0013 11.718 16 12V14C16 14.55 15.8043 15.021 15.413 15.413C15.0217 15.805 14.5507 16.0007 14 16H2Z"
+              fill="white" />
+          </svg>
+          Download Presentation
+        </a>
+      </div>
+    </div>
+
+    <!-- Нижняя полоса -->
+    <div class="footer__bottom">
+      <p class="footer__copy text">
+        © 2026 PowerTechExpo.kz. All rights reserved.
+      </p>
+      <ul class="footer__policy">
+        <li><a href="#" class="text">Privacy Policy</a></li>
+        <li><a href="#" class="text">Terms & Conditions</a></li>
+        <li><a href="#" class="text">Cookie Policy</a></li>
+      </ul>
+      <div class="footer__lang">
+        <span >Language:</span>
+        <a href="#">EN</a>
+        <a href="#">RU</a>
+        <a href="#">KZ</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+</body>
+
+</html>
